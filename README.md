@@ -13,11 +13,17 @@
 [vite](https://ko.vitejs.dev/guide/)
 
 
+
+## 구현 기능
+구글 폰트
+
+
+
 ## 트러블 슈팅
 <details>
 <summary>git 업로드 버그</summary>
-- 403 에러
-1. git remote set-url origin https://kiwowki@github.com/kiwowki/vite-project.git<br>
+- 403 에러(GitHub 리포지토리에 대한 권한 부족 및 권한 문제)<br>
+1. git remote set-url origin https://kiwowki@github.com/kiwowki/vite-project.git (참고: https://beagle-dev.tistory.com/244)<br>
 2. 자격 증명 관리자에서 권한 이름 변경하기
 </details>
 #vite-project

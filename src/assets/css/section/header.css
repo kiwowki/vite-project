@@ -1,0 +1,30 @@
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+    /* display: none; */
+}
+.header_inner {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 1rem;
+}
+
+.header_logo {}
+
+.header_nav {}
+.header_nav li {
+    display: inline;
+}
+.header_nav li a {
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-family: var(--pay);
+}
