@@ -16,8 +16,8 @@
 ## 트러블 슈팅
 <details>
 <summary>git 업로드 버그</summary>
-`403`
-1. git remote set-url origin https://kiwowki@github.com/kiwowki/vite-project.git
+- 403 에러
+1. git remote set-url origin https://kiwowki@github.com/kiwowki/vite-project.git<br>
 2. 자격 증명 관리자에서 권한 이름 변경하기
 </details>
 #vite-project
