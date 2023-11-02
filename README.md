@@ -26,4 +26,9 @@
 1. git remote set-url origin https://kiwowki@github.com/kiwowki/vite-project.git (참고: https://beagle-dev.tistory.com/244)<br>
 2. 자격 증명 관리자에서 권한 이름 변경하기
 </details>
+<details>
+<summary>git 초기 세팅</summary>
+- node_modules 설치<br>
+-> npm i
+</details>
 #vite-project

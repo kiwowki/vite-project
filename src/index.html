@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vite를 이용한 사이트 만들기☆</title>
 
-  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="icon" type="image/svg+xml" href="/public/favicon.svg">
   <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
@@ -26,7 +26,7 @@
   <header id="header" role="banner">
     <div class="header_inner">
       <div class="header_logo">
-        <a href="#">portfolio <em>developer</em></a>
+        <a href="#">portfolio <em>vite</em></a>
       </div>
       <div class="header_nav" role="navigation" aria-label="메인 메뉴">
         <ul>
@@ -40,14 +40,16 @@
             <a href="site">site</a>
           </li>
           <li>
-            <a href="port">port</a>
+            <a href="port">portfolio</a>
           </li>
           <li>
             <a href="contact">contact</a>
           </li>
         </ul>
       </div>
-      <!-- <div class="header_nav_mobile"></div> -->
+      <div class="header_nav_mobile" id="headerToggle" aria-controls="primary-menu" aria-expanded="false" role="button">
+        <span></span>
+      </div>
     </div>
   </header>
   <!-- //header -->
@@ -67,6 +69,7 @@
           <span class="line"></span>
           <span class="line"></span>
         </div>
+
         <div class="intro_text">
           <div class="text">
             <div>talent is</div>
@@ -75,17 +78,154 @@
           </div>
           <div class="img"></div>
         </div>
+
+        <div class="intro_lines bottom" aria-hidden="true">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+        
       </div>
     </section>
     <!-- //intro -->
 
     <section id="skill">
-      skill
+      <div class="skill_inner">
+         <h2 class="skill_title">
+          challenge <em>나의 도전</em>
+         </h2>
+         <div class="skill_desc">
+          
+          <div>
+            <span>1.</span>
+            <h3>좌절을 토대삼아 미래를 꿈 꾸다.</h3>
+            <p>
+              과거 실패의 경험을 통해 내가 진정으로 하고싶은 일들을 생각해보았습니다.
+              그러던 중 지금껏 공부했던 것과는 완전히 다른 코딩이라는 세계로 빠져들면서,
+              문제를 해결하고 창의적인 아이디어를 현실로 구현하는 것이 얼마나 재미있고 짜릿한 일인지 깨달았습니다.
+            </p>
+          </div>
+          <div>
+            <span>2.</span>
+            <h3>도전을 통해 미래를 꿈꾸다.</h3>
+            <p>
+              새로운 시작은 저에게 큰 도전이자 기회였습니다. 
+              좌절과 어려움을 극복하며, 코딩 분야로의 전환을 통해 새로운 미래를 꿈꾸고 있습니다. 
+              이 도전은 제게 자신의 꿈을 추구하고 끈질기게 나아가기위한 중요한 여정이며, 
+              저의 비전을 현실로 만들기 위한 시작점입니다.
+            </p>
+          </div>
+          <div>
+            <span>3.</span>
+            <h3>피하지않고 맞서며 꿈을 향해 나아가다.</h3>
+            <p>
+              제 삶은 항상 도전의 길이었습니다. 
+              어려움을 만날 때마다, 그것을 피하는 게 아닌 극복하는 것이 미래의 꿈을 향해 나아가는 중요한 스텝임을 깨달았습니다. 
+              이 길은 언제나 어려움과 성공의 연속이지만, 
+              꿈을 향한 열정과 끈질김으로 나아가며, 새로운 성공과 성장을 경험하려고 합니다.
+            </p>
+          </div>
+         </div>
+      </div>
     </section>
     <!-- //skill -->
 
     <section id="site">
-      site
+      <div class="site_inner">
+        <div class="site_title">
+          Site Coding <em>나의 작업물</em>
+        </div>
+        <div class="site_wrap">
+          <div class="site_item s1">
+            <span class="num">1. </span>
+            <div class="text">
+              <div>make</div>
+              <div>site compliant width</div>
+              <div>webstandard</div>
+            </div>
+            <h3 class="title">
+              VITE를 이용한 사이트 제작
+            </h3>
+            <div class="btn">
+              <a href="#">code</a>
+              <a href="#">view</a>
+            </div>
+            <div class="info">
+              <span>site coding</span>
+              <span>production period : two days</span>
+              <span>use stack : html5/css, css variable, vite</span>
+            </div>
+          </div>
+          <!-- //s1 -->
+          <div class="site_item s2">
+            <span class="num">2. </span>
+            <div class="text">
+              <div>make</div>
+              <div>site compliant width</div>
+              <div>webstandard</div>
+            </div>
+            <h3 class="title">
+              VITE를 이용한 사이트 제작
+            </h3>
+            <div class="btn">
+              <a href="#">code</a>
+              <a href="#">view</a>
+            </div>
+            <div class="info">
+              <span>site coding</span>
+              <span>production period : two days</span>
+              <span>use stack : html5/css, css variable, vite</span>
+            </div>
+          </div>
+          <!-- //s2 -->
+          <div class="site_item s3">
+            <span class="num">3. </span>
+            <div class="text">
+              <div>make</div>
+              <div>site compliant width</div>
+              <div>webstandard</div>
+            </div>
+            <h3 class="title">
+              VITE를 이용한 사이트 제작
+            </h3>
+            <div class="btn">
+              <a href="#">code</a>
+              <a href="#">view</a>
+            </div>
+            <div class="info">
+              <span>site coding</span>
+              <span>production period : two days</span>
+              <span>use stack : html5/css, css variable, vite</span>
+            </div>
+          </div>
+          <!-- //s3 -->
+          <div class="site_item s4">
+            <span class="num">4. </span>
+            <div class="text">
+              <div>make</div>
+              <div>site compliant width</div>
+              <div>webstandard</div>
+            </div>
+            <h3 class="title">
+              VITE를 이용한 사이트 제작
+            </h3>
+            <div class="btn">
+              <a href="#">code</a>
+              <a href="#">view</a>
+            </div>
+            <div class="info">
+              <span>site coding</span>
+              <span>production period : two days</span>
+              <span>use stack : html5/css, css variable, vite</span>
+            </div>
+          </div>
+          <!-- //s4 -->
+        </div>
+      </div>
     </section>
     <!-- //site -->
 
