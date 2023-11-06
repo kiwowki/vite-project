@@ -19,7 +19,7 @@
 }
 .skill_title em {
     font-family: var(--mainKor-font);
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 400;
     display: inline-block;
     vertical-align: 4px;
@@ -35,7 +35,7 @@
     color: var(--black);
 }
 .skill_desc h3 {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     text-decoration: underline;
     text-underline-position: under;
     margin-bottom: 1vw;
@@ -43,7 +43,7 @@
 }
 .skill_desc p {
     margin-bottom: 30vh;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-family: var(--mainKor-font);
     color: var(--black);
 }
