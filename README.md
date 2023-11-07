@@ -31,13 +31,16 @@
 2. 자격 증명 관리자에서 권한 이름 변경하기
 </details>
 <details> 
-<summary>git 초기 세팅</summary>
+<summary>git 초기 세팅, 로컬 열기</summary>
 
 - node_modules 설치<br>
 -> `npm i`
 
 - lenis 설치<br>
 -> `npm i @studio-freight/lenis`
+
+- 로컬 열기
+-> `npm run dev`
 </details>
 
 
