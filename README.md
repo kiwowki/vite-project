@@ -10,13 +10,17 @@
 
 4. 다양한 플러그인 및 통합성: Vite는 다양한 플러그인 및 프레임워크와의 통합이 용이하며, 개발자들이 필요한 도구와 기능을 쉽게 확장할 수 있습니다.
 
-[vite](https://ko.vitejs.dev/guide/)
+[vite](https://ko.vitejs.dev/guide/) 
 
 
 
 ## 구현 기능
-구글 폰트
-
+-구글 폰트 적용
+-smooth 효과 적용 https://lenis.studiofreight.com/
+-자바스크립트 메뉴 클릭 이동 효과 적용
+-GSAP를 이용한 가로 효과
+-JavaScript 모듈 기능 적용
+-웹표준 준수를 위한 스킵 메뉴 및 aria, role 적용
 
 
 ## 트러블 슈팅
@@ -31,4 +35,6 @@
 - node_modules 설치<br>
 -> npm i
 </details>
+
+
 #vite-project
