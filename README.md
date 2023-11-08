@@ -10,7 +10,7 @@
 
 4. 다양한 플러그인 및 통합성: Vite는 다양한 플러그인 및 프레임워크와의 통합이 용이하며, 개발자들이 필요한 도구와 기능을 쉽게 확장할 수 있습니다.
 
-[vite](https://ko.vitejs.dev/guide/)  
+[vite 공식 사이트 바로가기](https://ko.vitejs.dev/guide/)  
 
 
 
