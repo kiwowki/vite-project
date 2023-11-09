@@ -1,7 +1,8 @@
 .site_inner {
     padding: 16px;
-    
+
 }
+
 .site_title {
     position: sticky;
     top: 60px;
@@ -18,6 +19,7 @@
     margin-bottom: 10vw;
     background-color: var(--mainBg-color);
 }
+
 .site_title em {
     font-family: var(--mainKor-font);
     font-size: 1.5rem;
@@ -32,6 +34,7 @@
     align-items: center;
     justify-content: center; */
 }
+
 .site_item {
     height: 70vh;
     display: flex;
@@ -46,22 +49,26 @@
     padding: 20px;
     left: 0;
 }
+
 /* site_item s1 */
 .site_item.s1 {
     background-color: var(--black);
     color: var(--white);
     top: 180px;
 }
+
 .site_item.s2 {
     background-color: var(--black100);
     color: var(--white);
     top: 200px;
 }
+
 .site_item.s3 {
     background-color: var(--black300);
     color: var(--white);
     top: 220px;
 }
+
 .site_item.s4 {
     background-color: var(--black500);
     color: var(--white);
@@ -79,13 +86,14 @@
     left: 1vw;
     top: 1vw;
 }
+
 .site_item .text {
     margin-bottom: 30px;
     text-align: center;
     font-size: 1rem;
-    font-family: var(--mainKor-font);
 }
-.site_item .text > div {
+
+.site_item .text>div {
     font-size: 3vw;
     line-height: 1;
     font-weight: 900;
@@ -93,14 +101,15 @@
     text-decoration: underline;
     font-family: var(--mainPop-font);
 }
+
 .site_item .title {
     text-decoration: underline;
     text-transform: uppercase;
-    font-family: var(--mainKor-font);
     font-weight: 900;
     font-size: 1rem;
     transition: all 0.3s;
 }
+
 .site_item .btn a {
     text-decoration: underline;
     text-transform: uppercase;
@@ -108,9 +117,11 @@
     font-size: 1rem;
     transition: all 0.3s;
 }
+
 .site_item .btn a:hover {
     color: var(--mainBg-color);
 }
+
 .site_item .info {
     position: absolute;
     left: 0;
@@ -122,6 +133,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .site_item .info span {
     font-family: var(--mainKor-font);
     font-size: 12px;
@@ -131,9 +143,9 @@
 
 
 
-@media (max-width:800px){
-    .skill_inner {
-    }
+@media (max-width:800px) {
+    .skill_inner {}
+
     .site_title {
         width: 100%;
         font-size: 10vw;
@@ -142,12 +154,15 @@
         background-color: var(--mainBg-color);
         border-bottom: 0.8vw solid var(--black);
     }
+
     .skill_desc {
         width: 100%;
     }
+
     .skill_desc span {
         font-size: 20vw;
     }
+
     .skill_desc h3 {
         font-size: 24px;
         margin-bottom: 2vw;
